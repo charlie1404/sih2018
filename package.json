@@ -1,0 +1,19 @@
+{
+  "name": "sih2018",
+  "version": "1.0.0",
+  "description": "Project for Smart India Hackathon. Realtime monitoring of Internet Advertisement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlie1404/sih2018.git"
+  },
+  "author": "Shailendra Gupta (Bug Assassins)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlie1404/sih2018/issues"
+  },
+  "homepage": "https://github.com/charlie1404/sih2018#readme"
+}
