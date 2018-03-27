@@ -1,19 +1,51 @@
 {
-  "name": "sih2018",
-  "version": "1.0.0",
-  "description": "Project for Smart India Hackathon. Realtime monitoring of Internet Advertisement.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/charlie1404/sih2018.git"
-  },
-  "author": "Shailendra Gupta (Bug Assassins)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/charlie1404/sih2018/issues"
-  },
-  "homepage": "https://github.com/charlie1404/sih2018#readme"
+	"name": "sih2018",
+	"version": "1.0.0",
+	"description": "Project for Smart India Hackathon. Realtime monitoring of Internet Advertisement.",
+	"main": "app.js",
+	"scripts": {
+		"pretest": "eslint --ignore-path .gitignore .",
+		"dev:server": "nodemon app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlie1404/sih2018.git"
+	},
+	"author": "Shailendra Gupta (Bug Assassins)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/charlie1404/sih2018/issues"
+	},
+	"keywords": [
+		"JavaScript",
+		"NodeJS",
+		"Express"
+	],
+	"homepage": "https://github.com/charlie1404/sih2018#readme",
+	"dependencies": {
+		"body-parser": "^1.18.2",
+		"colors": "^1.2.1",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.4",
+		"del": "^3.0.0",
+		"dotenv": "^5.0.1",
+		"express": "^4.16.3",
+		"express-jwt": "^5.3.1",
+		"helmet": "^3.12.0",
+		"jsonwebtoken": "^8.2.0",
+		"lodash": "^4.17.5",
+		"mongoose": "^5.0.11",
+		"mongoose-unique-validator": "^2.0.0",
+		"passport": "^0.4.0",
+		"passport-local": "^1.0.0",
+		"pino": "^4.15.0",
+		"slug": "^0.9.1",
+		"socket.io": "^2.0.4",
+		"time": "^0.12.0"
+	},
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"nodemon": "^1.17.2"
+	}
 }
